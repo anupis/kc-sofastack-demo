@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 
 /**
- *
  * @author yuanyuan
  * @Since 2019/6/10
  */
@@ -25,7 +24,6 @@ public interface BookStoreController {
 
     /**
      * 查询商品信息
-     *
      */
     @RequestMapping(value = "/query", method = RequestMethod.POST)
     @ResponseBody
@@ -40,7 +38,6 @@ public interface BookStoreController {
 
     /**
      * 购买
-     *
      */
     @RequestMapping(value = "/purchase", method = RequestMethod.POST)
     @ResponseBody
@@ -48,7 +45,6 @@ public interface BookStoreController {
 
     /**
      * BalanceMng的RPC代理为Web创建用户
-     *
      */
     @RequestMapping(value = "/createUser", method = RequestMethod.POST)
     @ResponseBody
@@ -56,7 +52,6 @@ public interface BookStoreController {
 
     /**
      * BalanceMng的RPC代理为Web查询余额
-     *
      */
     @RequestMapping(value = "/queryBalance", method = RequestMethod.POST)
     @ResponseBody

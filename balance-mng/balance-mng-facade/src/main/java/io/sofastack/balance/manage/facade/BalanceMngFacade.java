@@ -9,7 +9,6 @@ import java.math.BigDecimal;
 public interface BalanceMngFacade {
 
     /**
-     *
      * 添加一条用户记录
      *
      * @param userName 用户名
@@ -28,7 +27,7 @@ public interface BalanceMngFacade {
      * 减少用户余额
      *
      * @param userName 用户名
-     * @param amount 减少数目
+     * @param amount   减少数目
      */
     void minusBalance(String userName, BigDecimal amount);
 }

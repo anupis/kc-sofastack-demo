@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<artifactId>kc-sofastack-demo</artifactId>
@@ -41,8 +41,31 @@
 		</dependency>
 
 		<!-- 引入依赖在这里 -->
-
-
+		<!--SOFARPC 依赖-->
+		<dependency>
+			<groupId>com.alipay.sofa</groupId>
+			<artifactId>rpc-sofa-boot-starter</artifactId>
+		</dependency>
+		<!--SOFATracer 依赖-->
+		<dependency>
+			<groupId>com.alipay.sofa</groupId>
+			<artifactId>tracer-sofa-boot-starter</artifactId>
+		</dependency>
+		<!--SOFARegistry 依赖-->
+		<dependency>
+			<groupId>com.alipay.sofa</groupId>
+			<artifactId>registry-client-all</artifactId>
+		</dependency>
+		<!--runtime 依赖-->
+		<dependency>
+			<groupId>com.alipay.sofa</groupId>
+			<artifactId>runtime-sofa-boot-starter</artifactId>
+		</dependency>
+		<!--SOFALookout 依赖-->
+		<dependency>
+			<groupId>com.alipay.sofa.lookout</groupId>
+			<artifactId>lookout-sofa-boot-starter</artifactId>
+		</dependency>
 
 	</dependencies>
 

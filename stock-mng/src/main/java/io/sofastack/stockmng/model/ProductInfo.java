@@ -4,9 +4,9 @@ import java.math.BigDecimal;
 
 public class ProductInfo {
 
-    private String  productCode;
+    private String productCode;
     private BigDecimal price;
-    private String  name;
+    private String name;
     private Integer ownedCount;
     private Integer stockCount;
     private String description;

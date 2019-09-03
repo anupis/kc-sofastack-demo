@@ -7,7 +7,7 @@ import java.math.BigDecimal;
  * @since 2019/6/10
  */
 public class Balance {
-    private int    id;
+    private int id;
     private String userName;
     private BigDecimal balance;
 
